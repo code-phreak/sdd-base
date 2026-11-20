@@ -1,0 +1,50 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.p12
+*.pfx
+*.key
+*.kdbx
+*.secret
+*.secrets
+credentials.json
+service-account*.json
+
+# Local-only material and handoff state
+.tmp/
+.local/
+.private/
+*.local.md
+*.local.json
+
+# Logs, runtime, and editor artifacts
+logs/
+*.log
+*.log.*
+.cache/
+tmp/
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.idea/
+
+# Common language/build artifacts (adapt after project stack is selected)
+node_modules/
+dist/
+build/
+bin/
+obj/
+coverage/
+.pytest_cache/
+__pycache__/
+.venv/
+
+# Backups and local databases (review project-specific exceptions)
+*.bak
+*.backup
+*.dump
+*.sqlite
+*.sqlite3
